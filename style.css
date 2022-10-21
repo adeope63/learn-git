@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #000;
+    color: white; */
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph{
+    padding: 50px;
+    /* background: rgb(49, 49, 49); */
+    border-radius: 10px;
+    box-shadow: 1px 3px 16px 10px rgba(0,0,0,0.35);
+}
+section :hover{
+    background: lightblue;
+}
